@@ -1,0 +1,57 @@
+body {
+  background-image: url("../images/background.png");
+  font-family: Helvetica, Arial," sans-serif";
+  box-sizing: border-box;
+  width:960px;
+  margin: 0 auto;
+}
+
+h1{
+  background-color: #d76c00;
+  width: 30%;
+  color: white;
+  padding: 30px 20px;
+}
+
+#instructions {
+  background-color: #fce4c9;
+  line-height: 1.2em;
+  width: 80%;
+  clear:both;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#numbertoguess {
+  background-color: #00d280;
+  font-size: 20px;
+  font-weight: 700;
+  width: 20%;
+  text-align: left;
+  float: left;
+    padding: 10px 0 65px 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+#score {
+  background-color: #00ffff;
+  line-height: 1em;
+  display: inline-block;
+  padding: 30px;
+  margin: 10px 0 20px 20px;
+  position: relative;
+}
+
+#totalScore {
+  background: #00a799;
+  width: 30%;
+  font-size: 22px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.diamondImage {
+  padding: 10px;
+  margin-right: 10px;
+}

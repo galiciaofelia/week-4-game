@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>index</title>
+<!-- <link href="assets/css/reset.css" rel="stylesheet" type="text/css"> -->
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1>Crystal Collector!</h1>
+  <div> 
+    <div id="instructions">
+        <p>- You will be given number to start the game.</p>
+        <p>- Collect the same amount by clicking the crystals with different scores.</p>
+        <p>- If you match the score - You win. If your score goes above the number - you lose.</p>
+        <p>- The values of crystals are hidden.</p>
+        <p>- All the values are resets every time you start the new round.</p>
+    </div>
+    <div id="numbertoguess">    
+    </div>
+  </div>  
+  <div id="score"> 
+    <div id="wins">Wins:</div>
+    <div id="losses">Losses:</div>
+    <div id="status"></div>
+  </div>
+
+    <div class="diamondImage">
+      <button id="diamond1"><img src="assets/images/diamond-1.png"></button>
+      <button id="diamond2"><img src="assets/images/diamond-2.png"></button>
+      <button id="diamond3"><img src="assets/images/diamond-3.png"></button>
+      <button id="diamond4"><img src="assets/images/diamond-4.png"></button>
+    </div>
+
+  <div> 
+      <div id="totalScore">Your score is: <span id="total"></span></div>
+  </div>  
+<script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
